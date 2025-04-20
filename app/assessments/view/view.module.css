@@ -1,0 +1,101 @@
+/* view.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    padding: 2rem;
+}
+
+.card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Filters layout */
+.filterGroup {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.filterGroup label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.filterGroup select {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333333;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+    margin-bottom: 1rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #cccccc;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.table th {
+    background-color: #2d3748;
+    color: #ffffff;
+}
+
+.table td {
+    color: #333333;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.linkWrapper {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.linkWrapper a {
+    display: inline-block;
+    padding: 0.75rem;
+    background-color: #0070f3;
+    border-radius: 4px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.linkWrapper a:hover {
+    background-color: #005bb5;
+}

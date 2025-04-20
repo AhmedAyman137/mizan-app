@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    padding: 2rem;
+}
+
+.card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Scoped h2 inside .card */
+.card h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333333;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+}
+
+.table th,
+.table td {
+    border: 1px solid #cccccc;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+/* Table header with dark background and white text */
+.table th {
+    background-color: #2D3748;
+    color: #ffffff;
+}
+
+/* Table rows with alternating colors */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Ensure table cell text is dark */
+.table td {
+    color: #333333;
+}
